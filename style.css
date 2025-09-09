@@ -1,10 +1,4 @@
-.logo-cont {
-    display: flex;
-    width: 20vw;
-    align-items: center;
-}
+.carousel-inner, .carousel, .slide {
+    height: 50vh;
 
-#logoIcon {
-    width: 70px;
-    height: 70px;
 }

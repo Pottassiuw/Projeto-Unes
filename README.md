@@ -1,7 +1,5 @@
 # 🎓 UNES - Website Institucional
 
-![UNES Logo](./Assets/Logo.jpg)
-
 Projeto de site institucional da **Universidade UNES**, desenvolvido com **HTML5 + Bootstrap 5** e estilização customizada com CSS.  
 Este projeto é totalmente **estático**, responsivo e com design clean.
 

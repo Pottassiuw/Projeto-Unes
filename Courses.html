@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cursos - UNES</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="./Assets/Logo.jpg" alt="Logo UNES" class="logo me-2" />
+          <span class="fw-bold">UNES</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Courses.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Enroll.html">Inscrição</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="Contact.html"
+                class="btn btn-outline-primary btn-sm ms-lg-3"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carrossel -->
+    <section
+      id="carouselCursos"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      style="margin-top: 56px"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./Assets/Administration.jpg"
+            class="d-block w-100 c-img"
+            alt="Curso 1"
+          />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <h1 class="fw-bold">Administração</h1>
+            <p>Aprenda a liderar negócios e transformar ideias em sucesso.</p>
+            <a href="./Enroll.html" class="btn btn-primary">Inscreva-se</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Assets/CS.jpg"
+            class="d-block w-100 c-img"
+            alt="Curso 2"
+          />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <h1 class="fw-bold">Ciência da Computação</h1>
+            <p>Explore o mundo da tecnologia e da inovação.</p>
+            <a href="./Enroll.html" class="btn btn-primary">Inscreva-se</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Assets/Engenharia.jpg"
+            class="d-block w-100 c-img"
+            alt="Curso 3"
+          />
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100"
+          >
+            <h1 class="fw-bold">Engenharia</h1>
+            <p>Construa soluções para os desafios do futuro.</p>
+            <a href="./Enroll.html" class="btn btn-primary">Inscreva-se</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselCursos"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselCursos"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <!-- Explicação -->
+    <main class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Por que estudar na UNES?</h2>
+        <p class="text-muted">
+          Nossos cursos são desenvolvidos para preparar você para os desafios do
+          mercado de trabalho, unindo teoria e prática em um ambiente moderno e
+          inovador.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <h5 class="card-title">Professores Experts</h5>
+              <p class="card-text">
+                Aprenda com profissionais altamente qualificados e experientes
+                no mercado.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <h5 class="card-title">Ambiente Inovador</h5>
+              <p class="card-text">
+                Laboratórios e bibliotecas digitais que apoiam seu aprendizado
+                contínuo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm text-center">
+            <div class="card-body">
+              <h5 class="card-title">Conexão com Empresas</h5>
+              <p class="card-text">
+                Parcerias estratégicas que aproximam você das melhores
+                oportunidades.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-light text-center py-3 border-top">
+      <p class="mb-0">&copy; 2025 UNES - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
